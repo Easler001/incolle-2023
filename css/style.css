@@ -500,9 +500,10 @@ h1, h2, h3, h4, h5, h6, figure {
     background: rgba(237, 235, 232, 0);
   }
 }
+
 @media screen and (max-width: 480px) {
   .work .work-grid .inner h3{
-    font-size: 7px;
+    
     background-color:rgba(237, 235, 232, 0.9);/*0.9*/
   }
 }
