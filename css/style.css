@@ -1,14 +1,11 @@
-/*Googleフォント読み込み*/
-@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
 /*ヘッダーメニュー*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-/*ロゴ*/
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap') ;
+
 
 
 
 body {
-  font-family: 'Kiwi Maru', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -62,7 +59,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  /*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -119,10 +116,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 28px;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: bold;
-  font-family: 'Londrina Shadow';
-  
+  font-family: 'Josefin Sans',sans-serif;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -360,7 +356,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   left: 0;
   top: .05em;
-  font-family: 'icomoon';
+  font-family: 'Josefin Sans', sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -573,7 +569,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 1.85;
   margin-top: 50px;
   font-weight: 300;;
-  font-family: 'Kiwi Maru', serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 @media screen and (max-width: 768px) {
   .intro h2 {
@@ -728,7 +724,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-footer {
   background: #00000000;
-  font-family: auto;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -898,7 +894,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: 'icomoon';
+  font-family: 'Josefin Sans', sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1285,14 +1281,14 @@ blockquote {
   border-left: none;
 }
 blockquote p {
-  font-family: "Georgia", Times;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: italic;
   font-size: 20px;
   line-height: 1.5;
   color: #666666;
 }
 blockquote .person {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
   color: #b3b3b3;
 }
